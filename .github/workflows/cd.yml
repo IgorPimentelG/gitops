@@ -41,8 +41,9 @@ jobs:
         git add .
         git commit -m "Update image to $GITHUB_SHA"
 
-    - name: Push
+    - name: Push to branch
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.PERSONAL_TOKEN }}
         repository: igorpimentelg/gitops
+        branch: main

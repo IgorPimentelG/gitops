@@ -9,5 +9,5 @@ resources:
 images:
   - name: goserver
     newName: igorpimentelg/gitops
-    newTag: v1.0.0
+    newTag: sha
 
